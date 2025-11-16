@@ -1,0 +1,21 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+python-multipart>=0.0.12
+
+# AI/LLM
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Code Analysis
+pylint>=3.0.0
+mypy>=1.7.0
+
+# Audio processing
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# Optional (uncomment if needed)
+# openai-whisper  # For local Whisper
+# pyttsx3  # For TTS

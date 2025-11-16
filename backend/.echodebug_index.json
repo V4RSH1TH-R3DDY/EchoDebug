@@ -1,0 +1,7094 @@
+{
+  "last_indexed": "2025-11-12T18:47:34.452689",
+  "files": {
+    "main.py": "7b74b1be70ba3abfd704756d73d0ee4f",
+    "modules\\ai_reasoning.py": "803639f7a1a2161654af5562169a3722",
+    "modules\\code_index.py": "c98b64c6aa74f34cccbf7937aaa0b9ea",
+    "modules\\code_parser.py": "e4f786f785636538e3f94c01ac6d4c02",
+    "modules\\debugger_interface.py": "1993e940b7e474a42aeb9f079bbef42e",
+    "modules\\intent_router.py": "cc6dc3d9adb62147d75915d10f3fa545",
+    "modules\\intent_schema.py": "480657b0d42707da221122fd0e87d11b",
+    "modules\\speech_to_text.py": "42b67b96bca152fc7778804d6153578c",
+    "modules\\__init__.py": "0c1cf803f799e4eff3b3f99cf3033929"
+  },
+  "symbols": {
+    "FastAPI": [
+      {
+        "name": "FastAPI",
+        "kind": "import",
+        "file": "main.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from fastapi import FastAPI",
+        "docstring": null
+      },
+      {
+        "name": "FastAPI",
+        "kind": "import",
+        "file": "main.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from fastapi import FastAPI",
+        "docstring": null
+      }
+    ],
+    "HTTPException": [
+      {
+        "name": "HTTPException",
+        "kind": "import",
+        "file": "main.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from fastapi import HTTPException",
+        "docstring": null
+      },
+      {
+        "name": "HTTPException",
+        "kind": "import",
+        "file": "main.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from fastapi import HTTPException",
+        "docstring": null
+      }
+    ],
+    "CORSMiddleware": [
+      {
+        "name": "CORSMiddleware",
+        "kind": "import",
+        "file": "main.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from fastapi.middleware.cors import CORSMiddleware",
+        "docstring": null
+      },
+      {
+        "name": "CORSMiddleware",
+        "kind": "import",
+        "file": "main.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from fastapi.middleware.cors import CORSMiddleware",
+        "docstring": null
+      }
+    ],
+    "BaseModel": [
+      {
+        "name": "BaseModel",
+        "kind": "import",
+        "file": "main.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pydantic import BaseModel",
+        "docstring": null
+      },
+      {
+        "name": "BaseModel",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pydantic import BaseModel",
+        "docstring": null
+      },
+      {
+        "name": "BaseModel",
+        "kind": "import",
+        "file": "main.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pydantic import BaseModel",
+        "docstring": null
+      },
+      {
+        "name": "BaseModel",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pydantic import BaseModel",
+        "docstring": null
+      }
+    ],
+    "Optional": [
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "main.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\speech_to_text.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "main.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      },
+      {
+        "name": "Optional",
+        "kind": "import",
+        "file": "modules\\speech_to_text.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Optional",
+        "docstring": null
+      }
+    ],
+    "List": [
+      {
+        "name": "List",
+        "kind": "import",
+        "file": "main.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import List",
+        "docstring": null
+      },
+      {
+        "name": "List",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import List",
+        "docstring": null
+      },
+      {
+        "name": "List",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import List",
+        "docstring": null
+      },
+      {
+        "name": "List",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import List",
+        "docstring": null
+      },
+      {
+        "name": "List",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import List",
+        "docstring": null
+      },
+      {
+        "name": "List",
+        "kind": "import",
+        "file": "main.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import List",
+        "docstring": null
+      },
+      {
+        "name": "List",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import List",
+        "docstring": null
+      },
+      {
+        "name": "List",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import List",
+        "docstring": null
+      },
+      {
+        "name": "List",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import List",
+        "docstring": null
+      },
+      {
+        "name": "List",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import List",
+        "docstring": null
+      }
+    ],
+    "Dict": [
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "main.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "main.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      },
+      {
+        "name": "Dict",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Dict",
+        "docstring": null
+      }
+    ],
+    "Any": [
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "main.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "main.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      },
+      {
+        "name": "Any",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Any",
+        "docstring": null
+      }
+    ],
+    "uvicorn": [
+      {
+        "name": "uvicorn",
+        "kind": "import",
+        "file": "main.py",
+        "line": 5,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import uvicorn",
+        "docstring": null
+      },
+      {
+        "name": "uvicorn",
+        "kind": "import",
+        "file": "main.py",
+        "line": 5,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import uvicorn",
+        "docstring": null
+      }
+    ],
+    "transcribe_audio": [
+      {
+        "name": "transcribe_audio",
+        "kind": "import",
+        "file": "main.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.speech_to_text import transcribe_audio",
+        "docstring": null
+      },
+      {
+        "name": "transcribe_audio",
+        "kind": "function",
+        "file": "modules\\speech_to_text.py",
+        "line": 5,
+        "column": 0,
+        "end_line": 31,
+        "scope": null,
+        "language": "python",
+        "signature": "def transcribe_audio(audio_data, format)",
+        "docstring": "Convert audio to text using Whisper API or local model.\n\nArgs:\n    audio_data: Base64 encoded audio\n    format: Audio format (wav, flac, etc.)\n\nReturns:\n    Transcribed text"
+      },
+      {
+        "name": "transcribe_audio",
+        "kind": "import",
+        "file": "main.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.speech_to_text import transcribe_audio",
+        "docstring": null
+      },
+      {
+        "name": "transcribe_audio",
+        "kind": "function",
+        "file": "modules\\speech_to_text.py",
+        "line": 5,
+        "column": 0,
+        "end_line": 31,
+        "scope": null,
+        "language": "python",
+        "signature": "def transcribe_audio(audio_data, format)",
+        "docstring": "Convert audio to text using Whisper API or local model.\n\nArgs:\n    audio_data: Base64 encoded audio\n    format: Audio format (wav, flac, etc.)\n\nReturns:\n    Transcribed text"
+      }
+    ],
+    "parse_intent": [
+      {
+        "name": "parse_intent",
+        "kind": "import",
+        "file": "main.py",
+        "line": 8,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.ai_reasoning import parse_intent",
+        "docstring": null
+      },
+      {
+        "name": "parse_intent",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 10,
+        "column": 0,
+        "end_line": 33,
+        "scope": null,
+        "language": "python",
+        "signature": "def parse_intent(text, context)",
+        "docstring": "Parse natural language into structured intent using LLM.\n\nArgs:\n    text: User's natural language command\n    context: Optional context (file list, recent actions, etc.)\n\nReturns:\n    Intent JSON with intent, confidence, entities"
+      },
+      {
+        "name": "parse_intent",
+        "kind": "import",
+        "file": "main.py",
+        "line": 8,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.ai_reasoning import parse_intent",
+        "docstring": null
+      },
+      {
+        "name": "parse_intent",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 10,
+        "column": 0,
+        "end_line": 33,
+        "scope": null,
+        "language": "python",
+        "signature": "def parse_intent(text, context)",
+        "docstring": "Parse natural language into structured intent using LLM.\n\nArgs:\n    text: User's natural language command\n    context: Optional context (file list, recent actions, etc.)\n\nReturns:\n    Intent JSON with intent, confidence, entities"
+      }
+    ],
+    "search_code": [
+      {
+        "name": "search_code",
+        "kind": "import",
+        "file": "main.py",
+        "line": 9,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.code_parser import search_code",
+        "docstring": null
+      },
+      {
+        "name": "search_code",
+        "kind": "function",
+        "file": "modules\\code_parser.py",
+        "line": 7,
+        "column": 0,
+        "end_line": 57,
+        "scope": null,
+        "language": "python",
+        "signature": "def search_code(query, lang, scope)",
+        "docstring": "Search codebase for query string.\n\nArgs:\n    query: Search query\n    lang: Programming language\n    scope: Search scope (all, functions, classes, etc.)\n\nReturns:\n    List of search results with file, line, preview"
+      },
+      {
+        "name": "search_code",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 91,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from code_parser import search_code",
+        "docstring": null
+      },
+      {
+        "name": "search_code",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 121,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from code_parser import search_code",
+        "docstring": null
+      },
+      {
+        "name": "search_code",
+        "kind": "import",
+        "file": "main.py",
+        "line": 9,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.code_parser import search_code",
+        "docstring": null
+      },
+      {
+        "name": "search_code",
+        "kind": "function",
+        "file": "modules\\code_parser.py",
+        "line": 7,
+        "column": 0,
+        "end_line": 57,
+        "scope": null,
+        "language": "python",
+        "signature": "def search_code(query, lang, scope)",
+        "docstring": "Search codebase for query string.\n\nArgs:\n    query: Search query\n    lang: Programming language\n    scope: Search scope (all, functions, classes, etc.)\n\nReturns:\n    List of search results with file, line, preview"
+      },
+      {
+        "name": "search_code",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 91,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from code_parser import search_code",
+        "docstring": null
+      },
+      {
+        "name": "search_code",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 121,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from code_parser import search_code",
+        "docstring": null
+      }
+    ],
+    "find_symbols": [
+      {
+        "name": "find_symbols",
+        "kind": "import",
+        "file": "main.py",
+        "line": 9,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.code_parser import find_symbols",
+        "docstring": null
+      },
+      {
+        "name": "find_symbols",
+        "kind": "function",
+        "file": "modules\\code_parser.py",
+        "line": 59,
+        "column": 0,
+        "end_line": 87,
+        "scope": null,
+        "language": "python",
+        "signature": "def find_symbols(name, lang, use_index)",
+        "docstring": "Find symbol definitions and references.\n\nArgs:\n    name: Symbol name to find\n    lang: Programming language\n    use_index: Use code index for faster search\n\nReturns:\n    List of symbol locations"
+      },
+      {
+        "name": "find_symbols",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 91,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from code_parser import find_symbols",
+        "docstring": null
+      },
+      {
+        "name": "find_symbols",
+        "kind": "import",
+        "file": "main.py",
+        "line": 9,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.code_parser import find_symbols",
+        "docstring": null
+      },
+      {
+        "name": "find_symbols",
+        "kind": "function",
+        "file": "modules\\code_parser.py",
+        "line": 59,
+        "column": 0,
+        "end_line": 87,
+        "scope": null,
+        "language": "python",
+        "signature": "def find_symbols(name, lang, use_index)",
+        "docstring": "Find symbol definitions and references.\n\nArgs:\n    name: Symbol name to find\n    lang: Programming language\n    use_index: Use code index for faster search\n\nReturns:\n    List of symbol locations"
+      },
+      {
+        "name": "find_symbols",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 91,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from code_parser import find_symbols",
+        "docstring": null
+      }
+    ],
+    "run_command": [
+      {
+        "name": "run_command",
+        "kind": "import",
+        "file": "main.py",
+        "line": 10,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.debugger_interface import run_command",
+        "docstring": null
+      },
+      {
+        "name": "run_command",
+        "kind": "function",
+        "file": "modules\\debugger_interface.py",
+        "line": 5,
+        "column": 0,
+        "end_line": 50,
+        "scope": null,
+        "language": "python",
+        "signature": "def run_command(cmd, env, timeout)",
+        "docstring": "Execute shell command and capture output.\n\nArgs:\n    cmd: Command to execute\n    env: Environment variables\n    timeout: Timeout in seconds\n\nReturns:\n    Dict with exit code, stdout, stderr"
+      },
+      {
+        "name": "run_command",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 92,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from debugger_interface import run_command",
+        "docstring": null
+      },
+      {
+        "name": "run_command",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 142,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from debugger_interface import run_command",
+        "docstring": null
+      },
+      {
+        "name": "run_command",
+        "kind": "import",
+        "file": "main.py",
+        "line": 10,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.debugger_interface import run_command",
+        "docstring": null
+      },
+      {
+        "name": "run_command",
+        "kind": "function",
+        "file": "modules\\debugger_interface.py",
+        "line": 5,
+        "column": 0,
+        "end_line": 50,
+        "scope": null,
+        "language": "python",
+        "signature": "def run_command(cmd, env, timeout)",
+        "docstring": "Execute shell command and capture output.\n\nArgs:\n    cmd: Command to execute\n    env: Environment variables\n    timeout: Timeout in seconds\n\nReturns:\n    Dict with exit code, stdout, stderr"
+      },
+      {
+        "name": "run_command",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 92,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from debugger_interface import run_command",
+        "docstring": null
+      },
+      {
+        "name": "run_command",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 142,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from debugger_interface import run_command",
+        "docstring": null
+      }
+    ],
+    "explain_trace": [
+      {
+        "name": "explain_trace",
+        "kind": "import",
+        "file": "main.py",
+        "line": 10,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.debugger_interface import explain_trace",
+        "docstring": null
+      },
+      {
+        "name": "explain_trace",
+        "kind": "function",
+        "file": "modules\\debugger_interface.py",
+        "line": 52,
+        "column": 0,
+        "end_line": 73,
+        "scope": null,
+        "language": "python",
+        "signature": "def explain_trace(trace, snippets)",
+        "docstring": "Analyze stack trace and provide explanation.\n\nArgs:\n    trace: Stack trace text\n    snippets: Optional code snippets for context\n\nReturns:\n    Dict with summary and suspect locations"
+      },
+      {
+        "name": "explain_trace",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 92,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from debugger_interface import explain_trace",
+        "docstring": null
+      },
+      {
+        "name": "explain_trace",
+        "kind": "import",
+        "file": "main.py",
+        "line": 10,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.debugger_interface import explain_trace",
+        "docstring": null
+      },
+      {
+        "name": "explain_trace",
+        "kind": "function",
+        "file": "modules\\debugger_interface.py",
+        "line": 52,
+        "column": 0,
+        "end_line": 73,
+        "scope": null,
+        "language": "python",
+        "signature": "def explain_trace(trace, snippets)",
+        "docstring": "Analyze stack trace and provide explanation.\n\nArgs:\n    trace: Stack trace text\n    snippets: Optional code snippets for context\n\nReturns:\n    Dict with summary and suspect locations"
+      },
+      {
+        "name": "explain_trace",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 92,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from debugger_interface import explain_trace",
+        "docstring": null
+      }
+    ],
+    "get_index": [
+      {
+        "name": "get_index",
+        "kind": "import",
+        "file": "main.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.code_index import get_index",
+        "docstring": null
+      },
+      {
+        "name": "get_index",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 327,
+        "column": 0,
+        "end_line": 333,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_index(workspace_path)",
+        "docstring": "Get or create the global code index"
+      },
+      {
+        "name": "get_index",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 74,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from code_index import get_index",
+        "docstring": null
+      },
+      {
+        "name": "get_index",
+        "kind": "import",
+        "file": "main.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.code_index import get_index",
+        "docstring": null
+      },
+      {
+        "name": "get_index",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 327,
+        "column": 0,
+        "end_line": 333,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_index(workspace_path)",
+        "docstring": "Get or create the global code index"
+      },
+      {
+        "name": "get_index",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 74,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from code_index import get_index",
+        "docstring": null
+      }
+    ],
+    "rebuild_index": [
+      {
+        "name": "rebuild_index",
+        "kind": "import",
+        "file": "main.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.code_index import rebuild_index",
+        "docstring": null
+      },
+      {
+        "name": "rebuild_index",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 335,
+        "column": 0,
+        "end_line": 338,
+        "scope": null,
+        "language": "python",
+        "signature": "def rebuild_index(workspace_path, force)",
+        "docstring": "Rebuild the code index"
+      },
+      {
+        "name": "rebuild_index",
+        "kind": "import",
+        "file": "main.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.code_index import rebuild_index",
+        "docstring": null
+      },
+      {
+        "name": "rebuild_index",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 335,
+        "column": 0,
+        "end_line": 338,
+        "scope": null,
+        "language": "python",
+        "signature": "def rebuild_index(workspace_path, force)",
+        "docstring": "Rebuild the code index"
+      }
+    ],
+    "get_router": [
+      {
+        "name": "get_router",
+        "kind": "import",
+        "file": "main.py",
+        "line": 12,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.intent_router import get_router",
+        "docstring": null
+      },
+      {
+        "name": "get_router",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 85,
+        "column": 0,
+        "end_line": 87,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_router()",
+        "docstring": "Get the global intent router"
+      },
+      {
+        "name": "get_router",
+        "kind": "import",
+        "file": "main.py",
+        "line": 12,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.intent_router import get_router",
+        "docstring": null
+      },
+      {
+        "name": "get_router",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 85,
+        "column": 0,
+        "end_line": 87,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_router()",
+        "docstring": "Get the global intent router"
+      }
+    ],
+    "register_handlers": [
+      {
+        "name": "register_handlers",
+        "kind": "import",
+        "file": "main.py",
+        "line": 12,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.intent_router import register_handlers",
+        "docstring": null
+      },
+      {
+        "name": "register_handlers",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 89,
+        "column": 0,
+        "end_line": 115,
+        "scope": null,
+        "language": "python",
+        "signature": "def register_handlers()",
+        "docstring": "Register all default handlers"
+      },
+      {
+        "name": "register_handlers",
+        "kind": "import",
+        "file": "main.py",
+        "line": 12,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.intent_router import register_handlers",
+        "docstring": null
+      },
+      {
+        "name": "register_handlers",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 89,
+        "column": 0,
+        "end_line": 115,
+        "scope": null,
+        "language": "python",
+        "signature": "def register_handlers()",
+        "docstring": "Register all default handlers"
+      }
+    ],
+    "Intent": [
+      {
+        "name": "Intent",
+        "kind": "import",
+        "file": "main.py",
+        "line": 13,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.intent_schema import Intent",
+        "docstring": null
+      },
+      {
+        "name": "Intent",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import Intent",
+        "docstring": null
+      },
+      {
+        "name": "Intent",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import Intent",
+        "docstring": null
+      },
+      {
+        "name": "Intent",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 51,
+        "column": 0,
+        "end_line": 66,
+        "scope": null,
+        "language": "python",
+        "signature": "class Intent(BaseModel)",
+        "docstring": "Structured intent representation"
+      },
+      {
+        "name": "Intent",
+        "kind": "import",
+        "file": "main.py",
+        "line": 13,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.intent_schema import Intent",
+        "docstring": null
+      },
+      {
+        "name": "Intent",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import Intent",
+        "docstring": null
+      },
+      {
+        "name": "Intent",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import Intent",
+        "docstring": null
+      },
+      {
+        "name": "Intent",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 51,
+        "column": 0,
+        "end_line": 66,
+        "scope": null,
+        "language": "python",
+        "signature": "class Intent(BaseModel)",
+        "docstring": "Structured intent representation"
+      }
+    ],
+    "validate_intent": [
+      {
+        "name": "validate_intent",
+        "kind": "import",
+        "file": "main.py",
+        "line": 13,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.intent_schema import validate_intent",
+        "docstring": null
+      },
+      {
+        "name": "validate_intent",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import validate_intent",
+        "docstring": null
+      },
+      {
+        "name": "validate_intent",
+        "kind": "function",
+        "file": "modules\\intent_schema.py",
+        "line": 160,
+        "column": 0,
+        "end_line": 162,
+        "scope": null,
+        "language": "python",
+        "signature": "def validate_intent(intent_data)",
+        "docstring": "Validate and parse intent data"
+      },
+      {
+        "name": "validate_intent",
+        "kind": "import",
+        "file": "main.py",
+        "line": 13,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from modules.intent_schema import validate_intent",
+        "docstring": null
+      },
+      {
+        "name": "validate_intent",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import validate_intent",
+        "docstring": null
+      },
+      {
+        "name": "validate_intent",
+        "kind": "function",
+        "file": "modules\\intent_schema.py",
+        "line": 160,
+        "column": 0,
+        "end_line": 162,
+        "scope": null,
+        "language": "python",
+        "signature": "def validate_intent(intent_data)",
+        "docstring": "Validate and parse intent data"
+      }
+    ],
+    "app": [
+      {
+        "name": "app",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 15,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "app",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 15,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "STTRequest": [
+      {
+        "name": "STTRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 39,
+        "column": 0,
+        "end_line": 41,
+        "scope": null,
+        "language": "python",
+        "signature": "class STTRequest(BaseModel)",
+        "docstring": null
+      },
+      {
+        "name": "STTRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 39,
+        "column": 0,
+        "end_line": 41,
+        "scope": null,
+        "language": "python",
+        "signature": "class STTRequest(BaseModel)",
+        "docstring": null
+      }
+    ],
+    "IntentRequest": [
+      {
+        "name": "IntentRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 43,
+        "column": 0,
+        "end_line": 45,
+        "scope": null,
+        "language": "python",
+        "signature": "class IntentRequest(BaseModel)",
+        "docstring": null
+      },
+      {
+        "name": "IntentRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 43,
+        "column": 0,
+        "end_line": 45,
+        "scope": null,
+        "language": "python",
+        "signature": "class IntentRequest(BaseModel)",
+        "docstring": null
+      }
+    ],
+    "SearchRequest": [
+      {
+        "name": "SearchRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 47,
+        "column": 0,
+        "end_line": 50,
+        "scope": null,
+        "language": "python",
+        "signature": "class SearchRequest(BaseModel)",
+        "docstring": null
+      },
+      {
+        "name": "SearchRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 47,
+        "column": 0,
+        "end_line": 50,
+        "scope": null,
+        "language": "python",
+        "signature": "class SearchRequest(BaseModel)",
+        "docstring": null
+      }
+    ],
+    "SymbolRequest": [
+      {
+        "name": "SymbolRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 52,
+        "column": 0,
+        "end_line": 54,
+        "scope": null,
+        "language": "python",
+        "signature": "class SymbolRequest(BaseModel)",
+        "docstring": null
+      },
+      {
+        "name": "SymbolRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 52,
+        "column": 0,
+        "end_line": 54,
+        "scope": null,
+        "language": "python",
+        "signature": "class SymbolRequest(BaseModel)",
+        "docstring": null
+      }
+    ],
+    "RunRequest": [
+      {
+        "name": "RunRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 56,
+        "column": 0,
+        "end_line": 59,
+        "scope": null,
+        "language": "python",
+        "signature": "class RunRequest(BaseModel)",
+        "docstring": null
+      },
+      {
+        "name": "RunRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 56,
+        "column": 0,
+        "end_line": 59,
+        "scope": null,
+        "language": "python",
+        "signature": "class RunRequest(BaseModel)",
+        "docstring": null
+      }
+    ],
+    "ExplainTraceRequest": [
+      {
+        "name": "ExplainTraceRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 61,
+        "column": 0,
+        "end_line": 63,
+        "scope": null,
+        "language": "python",
+        "signature": "class ExplainTraceRequest(BaseModel)",
+        "docstring": null
+      },
+      {
+        "name": "ExplainTraceRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 61,
+        "column": 0,
+        "end_line": 63,
+        "scope": null,
+        "language": "python",
+        "signature": "class ExplainTraceRequest(BaseModel)",
+        "docstring": null
+      }
+    ],
+    "ProposeFixRequest": [
+      {
+        "name": "ProposeFixRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 65,
+        "column": 0,
+        "end_line": 68,
+        "scope": null,
+        "language": "python",
+        "signature": "class ProposeFixRequest(BaseModel)",
+        "docstring": null
+      },
+      {
+        "name": "ProposeFixRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 65,
+        "column": 0,
+        "end_line": 68,
+        "scope": null,
+        "language": "python",
+        "signature": "class ProposeFixRequest(BaseModel)",
+        "docstring": null
+      }
+    ],
+    "ApplyFixRequest": [
+      {
+        "name": "ApplyFixRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 70,
+        "column": 0,
+        "end_line": 71,
+        "scope": null,
+        "language": "python",
+        "signature": "class ApplyFixRequest(BaseModel)",
+        "docstring": null
+      },
+      {
+        "name": "ApplyFixRequest",
+        "kind": "class",
+        "file": "main.py",
+        "line": 70,
+        "column": 0,
+        "end_line": 71,
+        "scope": null,
+        "language": "python",
+        "signature": "class ApplyFixRequest(BaseModel)",
+        "docstring": null
+      }
+    ],
+    "index": [
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 32,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 192,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 206,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 216,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 337,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 75,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 32,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 189,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 203,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 213,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 337,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "index",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 75,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "threading": [
+      {
+        "name": "threading",
+        "kind": "import",
+        "file": "main.py",
+        "line": 35,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import threading",
+        "docstring": null
+      },
+      {
+        "name": "threading",
+        "kind": "import",
+        "file": "main.py",
+        "line": 35,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import threading",
+        "docstring": null
+      }
+    ],
+    "text": [
+      {
+        "name": "text",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 82,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "text",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 82,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "intent_data": [
+      {
+        "name": "intent_data",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 91,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent_data",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 168,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent_data",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 91,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent_data",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 165,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "results": [
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 100,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 233,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 254,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 19,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 91,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 76,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 100,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 233,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 254,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 19,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 91,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "results",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 76,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "symbols": [
+      {
+        "name": "symbols",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 109,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbols",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 207,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbols",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 123,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbols",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 94,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbols",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 109,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbols",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 204,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbols",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 123,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbols",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 94,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "result": [
+      {
+        "name": "result",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 118,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "result",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 173,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "result",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 24,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "result",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 152,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "result",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 60,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "result",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 118,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "result",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 170,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "result",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 24,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "result",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 152,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "result",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 60,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "explanation": [
+      {
+        "name": "explanation",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 127,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "explanation",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 127,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "intent": [
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 169,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 76,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 79,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 82,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 85,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 88,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 91,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 94,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 97,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 166,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 76,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 79,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 82,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 85,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 88,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 91,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 94,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 97,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "router": [
+      {
+        "name": "router",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 172,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "router",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 94,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "router",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 169,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "router",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 94,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "stats": [
+      {
+        "name": "stats",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 183,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "stats",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 69,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "stats",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 180,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "stats",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 69,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "references": [
+      {
+        "name": "references",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 217,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "references",
+        "kind": "variable",
+        "file": "main.py",
+        "line": 214,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "os": [
+      {
+        "name": "os",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import os",
+        "docstring": null
+      },
+      {
+        "name": "os",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import os",
+        "docstring": null
+      },
+      {
+        "name": "os",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import os",
+        "docstring": null
+      },
+      {
+        "name": "os",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import os",
+        "docstring": null
+      },
+      {
+        "name": "os",
+        "kind": "import",
+        "file": "modules\\speech_to_text.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import os",
+        "docstring": null
+      },
+      {
+        "name": "os",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import os",
+        "docstring": null
+      },
+      {
+        "name": "os",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import os",
+        "docstring": null
+      },
+      {
+        "name": "os",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import os",
+        "docstring": null
+      },
+      {
+        "name": "os",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import os",
+        "docstring": null
+      },
+      {
+        "name": "os",
+        "kind": "import",
+        "file": "modules\\speech_to_text.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import os",
+        "docstring": null
+      }
+    ],
+    "json": [
+      {
+        "name": "json",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import json",
+        "docstring": null
+      },
+      {
+        "name": "json",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 8,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import json",
+        "docstring": null
+      },
+      {
+        "name": "json",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import json",
+        "docstring": null
+      },
+      {
+        "name": "json",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 8,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import json",
+        "docstring": null
+      }
+    ],
+    "IntentType": [
+      {
+        "name": "IntentType",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import IntentType",
+        "docstring": null
+      },
+      {
+        "name": "IntentType",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import IntentType",
+        "docstring": null
+      },
+      {
+        "name": "IntentType",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 10,
+        "column": 0,
+        "end_line": 21,
+        "scope": null,
+        "language": "python",
+        "signature": "class IntentType(str, Enum)",
+        "docstring": "Valid intent types"
+      },
+      {
+        "name": "IntentType",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import IntentType",
+        "docstring": null
+      },
+      {
+        "name": "IntentType",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import IntentType",
+        "docstring": null
+      },
+      {
+        "name": "IntentType",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 10,
+        "column": 0,
+        "end_line": 21,
+        "scope": null,
+        "language": "python",
+        "signature": "class IntentType(str, Enum)",
+        "docstring": "Valid intent types"
+      }
+    ],
+    "get_intent_prompt": [
+      {
+        "name": "get_intent_prompt",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import get_intent_prompt",
+        "docstring": null
+      },
+      {
+        "name": "get_intent_prompt",
+        "kind": "function",
+        "file": "modules\\intent_schema.py",
+        "line": 122,
+        "column": 0,
+        "end_line": 158,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_intent_prompt()",
+        "docstring": "Generate system prompt for LLM intent classification"
+      },
+      {
+        "name": "get_intent_prompt",
+        "kind": "import",
+        "file": "modules\\ai_reasoning.py",
+        "line": 4,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from intent_schema import get_intent_prompt",
+        "docstring": null
+      },
+      {
+        "name": "get_intent_prompt",
+        "kind": "function",
+        "file": "modules\\intent_schema.py",
+        "line": 122,
+        "column": 0,
+        "end_line": 158,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_intent_prompt()",
+        "docstring": "Generate system prompt for LLM intent classification"
+      }
+    ],
+    "_parse_intent_with_llm": [
+      {
+        "name": "_parse_intent_with_llm",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 35,
+        "column": 0,
+        "end_line": 68,
+        "scope": null,
+        "language": "python",
+        "signature": "def _parse_intent_with_llm(text, context)",
+        "docstring": "Parse intent using OpenAI GPT"
+      },
+      {
+        "name": "_parse_intent_with_llm",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 35,
+        "column": 0,
+        "end_line": 68,
+        "scope": null,
+        "language": "python",
+        "signature": "def _parse_intent_with_llm(text, context)",
+        "docstring": "Parse intent using OpenAI GPT"
+      }
+    ],
+    "_parse_intent_fallback": [
+      {
+        "name": "_parse_intent_fallback",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 70,
+        "column": 0,
+        "end_line": 109,
+        "scope": null,
+        "language": "python",
+        "signature": "def _parse_intent_fallback(text)",
+        "docstring": "Fallback keyword-based intent parsing"
+      },
+      {
+        "name": "_parse_intent_fallback",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 70,
+        "column": 0,
+        "end_line": 109,
+        "scope": null,
+        "language": "python",
+        "signature": "def _parse_intent_fallback(text)",
+        "docstring": "Fallback keyword-based intent parsing"
+      }
+    ],
+    "_extract_file_entity": [
+      {
+        "name": "_extract_file_entity",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 111,
+        "column": 0,
+        "end_line": 118,
+        "scope": null,
+        "language": "python",
+        "signature": "def _extract_file_entity(text)",
+        "docstring": "Extract file name from text"
+      },
+      {
+        "name": "_extract_file_entity",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 111,
+        "column": 0,
+        "end_line": 118,
+        "scope": null,
+        "language": "python",
+        "signature": "def _extract_file_entity(text)",
+        "docstring": "Extract file name from text"
+      }
+    ],
+    "_extract_symbol_entity": [
+      {
+        "name": "_extract_symbol_entity",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 120,
+        "column": 0,
+        "end_line": 133,
+        "scope": null,
+        "language": "python",
+        "signature": "def _extract_symbol_entity(text)",
+        "docstring": "Extract symbol name from text"
+      },
+      {
+        "name": "_extract_symbol_entity",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 120,
+        "column": 0,
+        "end_line": 133,
+        "scope": null,
+        "language": "python",
+        "signature": "def _extract_symbol_entity(text)",
+        "docstring": "Extract symbol name from text"
+      }
+    ],
+    "_extract_code_entity": [
+      {
+        "name": "_extract_code_entity",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 135,
+        "column": 0,
+        "end_line": 137,
+        "scope": null,
+        "language": "python",
+        "signature": "def _extract_code_entity(text)",
+        "docstring": "Extract code reference from text"
+      },
+      {
+        "name": "_extract_code_entity",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 135,
+        "column": 0,
+        "end_line": 137,
+        "scope": null,
+        "language": "python",
+        "signature": "def _extract_code_entity(text)",
+        "docstring": "Extract code reference from text"
+      }
+    ],
+    "_detect_language": [
+      {
+        "name": "_detect_language",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 139,
+        "column": 0,
+        "end_line": 147,
+        "scope": null,
+        "language": "python",
+        "signature": "def _detect_language(filename)",
+        "docstring": "Detect programming language from filename"
+      },
+      {
+        "name": "_detect_language",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 139,
+        "column": 0,
+        "end_line": 147,
+        "scope": null,
+        "language": "python",
+        "signature": "def _detect_language(filename)",
+        "docstring": "Detect programming language from filename"
+      }
+    ],
+    "generate_llm_response": [
+      {
+        "name": "generate_llm_response",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 149,
+        "column": 0,
+        "end_line": 164,
+        "scope": null,
+        "language": "python",
+        "signature": "def generate_llm_response(prompt, system_prompt)",
+        "docstring": "Generate response using LLM.\n\nArgs:\n    prompt: User prompt\n    system_prompt: Optional system instructions\n\nReturns:\n    LLM response text"
+      },
+      {
+        "name": "generate_llm_response",
+        "kind": "function",
+        "file": "modules\\ai_reasoning.py",
+        "line": 149,
+        "column": 0,
+        "end_line": 164,
+        "scope": null,
+        "language": "python",
+        "signature": "def generate_llm_response(prompt, system_prompt)",
+        "docstring": "Generate response using LLM.\n\nArgs:\n    prompt: User prompt\n    system_prompt: Optional system instructions\n\nReturns:\n    LLM response text"
+      }
+    ],
+    "api_key": [
+      {
+        "name": "api_key",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 22,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "api_key",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 22,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "context_str": [
+      {
+        "name": "context_str",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 42,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "context_str",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 42,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "system_prompt": [
+      {
+        "name": "system_prompt",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 49,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "system_prompt",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 49,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "user_prompt": [
+      {
+        "name": "user_prompt",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 50,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "user_prompt",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 50,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "text_lower": [
+      {
+        "name": "text_lower",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 72,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "text_lower",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 72,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "intent_obj": [
+      {
+        "name": "intent_obj",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 101,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intent_obj",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 101,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "words": [
+      {
+        "name": "words",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 114,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "words",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 123,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "words",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 114,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "words",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 123,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "entities": [
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 77,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 80,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 83,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 86,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 89,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 92,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 95,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 98,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 77,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 80,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 83,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 86,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 89,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 92,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 95,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "entities",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 98,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "symbol": [
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 127,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 134,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 142,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 160,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 176,
+        "column": 28,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 189,
+        "column": 24,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 202,
+        "column": 24,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\ai_reasoning.py",
+        "line": 127,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 134,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 142,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 160,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 176,
+        "column": 28,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 189,
+        "column": 24,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "symbol",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 202,
+        "column": 24,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "ast": [
+      {
+        "name": "ast",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import ast",
+        "docstring": null
+      },
+      {
+        "name": "ast",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import ast",
+        "docstring": null
+      },
+      {
+        "name": "ast",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import ast",
+        "docstring": null
+      },
+      {
+        "name": "ast",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 2,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import ast",
+        "docstring": null
+      }
+    ],
+    "hashlib": [
+      {
+        "name": "hashlib",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 9,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import hashlib",
+        "docstring": null
+      },
+      {
+        "name": "hashlib",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 9,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import hashlib",
+        "docstring": null
+      }
+    ],
+    "Path": [
+      {
+        "name": "Path",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 10,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pathlib import Path",
+        "docstring": null
+      },
+      {
+        "name": "Path",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 5,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pathlib import Path",
+        "docstring": null
+      },
+      {
+        "name": "Path",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 10,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pathlib import Path",
+        "docstring": null
+      },
+      {
+        "name": "Path",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 5,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pathlib import Path",
+        "docstring": null
+      }
+    ],
+    "Set": [
+      {
+        "name": "Set",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Set",
+        "docstring": null
+      },
+      {
+        "name": "Set",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 11,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Set",
+        "docstring": null
+      }
+    ],
+    "dataclass": [
+      {
+        "name": "dataclass",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 12,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from dataclasses import dataclass",
+        "docstring": null
+      },
+      {
+        "name": "dataclass",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 12,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from dataclasses import dataclass",
+        "docstring": null
+      }
+    ],
+    "asdict": [
+      {
+        "name": "asdict",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 12,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from dataclasses import asdict",
+        "docstring": null
+      },
+      {
+        "name": "asdict",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 12,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from dataclasses import asdict",
+        "docstring": null
+      }
+    ],
+    "datetime": [
+      {
+        "name": "datetime",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 13,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from datetime import datetime",
+        "docstring": null
+      },
+      {
+        "name": "datetime",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 13,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from datetime import datetime",
+        "docstring": null
+      }
+    ],
+    "logging": [
+      {
+        "name": "logging",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 14,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import logging",
+        "docstring": null
+      },
+      {
+        "name": "logging",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 8,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import logging",
+        "docstring": null
+      },
+      {
+        "name": "logging",
+        "kind": "import",
+        "file": "modules\\code_index.py",
+        "line": 14,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import logging",
+        "docstring": null
+      },
+      {
+        "name": "logging",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 8,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import logging",
+        "docstring": null
+      }
+    ],
+    "logger": [
+      {
+        "name": "logger",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 16,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "logger",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 10,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "logger",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 16,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "logger",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 10,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "Symbol": [
+      {
+        "name": "Symbol",
+        "kind": "class",
+        "file": "modules\\code_index.py",
+        "line": 19,
+        "column": 0,
+        "end_line": 33,
+        "scope": null,
+        "language": "python",
+        "signature": "class Symbol",
+        "docstring": "Represents a code symbol"
+      },
+      {
+        "name": "Symbol",
+        "kind": "class",
+        "file": "modules\\code_index.py",
+        "line": 19,
+        "column": 0,
+        "end_line": 33,
+        "scope": null,
+        "language": "python",
+        "signature": "class Symbol",
+        "docstring": "Represents a code symbol"
+      }
+    ],
+    "Reference": [
+      {
+        "name": "Reference",
+        "kind": "class",
+        "file": "modules\\code_index.py",
+        "line": 36,
+        "column": 0,
+        "end_line": 43,
+        "scope": null,
+        "language": "python",
+        "signature": "class Reference",
+        "docstring": "Represents a symbol reference (read/write)"
+      },
+      {
+        "name": "Reference",
+        "kind": "class",
+        "file": "modules\\code_index.py",
+        "line": 36,
+        "column": 0,
+        "end_line": 43,
+        "scope": null,
+        "language": "python",
+        "signature": "class Reference",
+        "docstring": "Represents a symbol reference (read/write)"
+      }
+    ],
+    "CodeIndex": [
+      {
+        "name": "CodeIndex",
+        "kind": "class",
+        "file": "modules\\code_index.py",
+        "line": 45,
+        "column": 0,
+        "end_line": 322,
+        "scope": null,
+        "language": "python",
+        "signature": "class CodeIndex",
+        "docstring": "Maintains an index of code symbols for fast lookup"
+      },
+      {
+        "name": "CodeIndex",
+        "kind": "class",
+        "file": "modules\\code_index.py",
+        "line": 45,
+        "column": 0,
+        "end_line": 322,
+        "scope": null,
+        "language": "python",
+        "signature": "class CodeIndex",
+        "docstring": "Maintains an index of code symbols for fast lookup"
+      }
+    ],
+    "to_dict": [
+      {
+        "name": "to_dict",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 32,
+        "column": 4,
+        "end_line": 33,
+        "scope": null,
+        "language": "python",
+        "signature": "def to_dict(self)",
+        "docstring": null
+      },
+      {
+        "name": "to_dict",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 32,
+        "column": 4,
+        "end_line": 33,
+        "scope": null,
+        "language": "python",
+        "signature": "def to_dict(self)",
+        "docstring": null
+      }
+    ],
+    "__init__": [
+      {
+        "name": "__init__",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 48,
+        "column": 4,
+        "end_line": 54,
+        "scope": null,
+        "language": "python",
+        "signature": "def __init__(self, workspace_path)",
+        "docstring": null
+      },
+      {
+        "name": "__init__",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 15,
+        "column": 4,
+        "end_line": 21,
+        "scope": null,
+        "language": "python",
+        "signature": "def __init__(self)",
+        "docstring": null
+      },
+      {
+        "name": "__init__",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 48,
+        "column": 4,
+        "end_line": 54,
+        "scope": null,
+        "language": "python",
+        "signature": "def __init__(self, workspace_path)",
+        "docstring": null
+      },
+      {
+        "name": "__init__",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 15,
+        "column": 4,
+        "end_line": 21,
+        "scope": null,
+        "language": "python",
+        "signature": "def __init__(self)",
+        "docstring": null
+      }
+    ],
+    "build_index": [
+      {
+        "name": "build_index",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 56,
+        "column": 4,
+        "end_line": 119,
+        "scope": null,
+        "language": "python",
+        "signature": "def build_index(self, force)",
+        "docstring": "Build or update the code index\n\nArgs:\n    force: Force rebuild even if files haven't changed\n\nReturns:\n    Index statistics"
+      },
+      {
+        "name": "build_index",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 56,
+        "column": 4,
+        "end_line": 119,
+        "scope": null,
+        "language": "python",
+        "signature": "def build_index(self, force)",
+        "docstring": "Build or update the code index\n\nArgs:\n    force: Force rebuild even if files haven't changed\n\nReturns:\n    Index statistics"
+      }
+    ],
+    "_index_python_file": [
+      {
+        "name": "_index_python_file",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 121,
+        "column": 4,
+        "end_line": 219,
+        "scope": null,
+        "language": "python",
+        "signature": "def _index_python_file(self, file_path)",
+        "docstring": "Index a Python file using AST"
+      },
+      {
+        "name": "_index_python_file",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 121,
+        "column": 4,
+        "end_line": 219,
+        "scope": null,
+        "language": "python",
+        "signature": "def _index_python_file(self, file_path)",
+        "docstring": "Index a Python file using AST"
+      }
+    ],
+    "search_symbols": [
+      {
+        "name": "search_symbols",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 221,
+        "column": 4,
+        "end_line": 245,
+        "scope": null,
+        "language": "python",
+        "signature": "def search_symbols(self, query, kind, limit)",
+        "docstring": "Search for symbols by name\n\nArgs:\n    query: Symbol name or pattern\n    kind: Filter by symbol kind (function, class, etc.)\n    limit: Maximum results\n\nReturns:\n    List of matching symbols"
+      },
+      {
+        "name": "search_symbols",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 221,
+        "column": 4,
+        "end_line": 245,
+        "scope": null,
+        "language": "python",
+        "signature": "def search_symbols(self, query, kind, limit)",
+        "docstring": "Search for symbols by name\n\nArgs:\n    query: Symbol name or pattern\n    kind: Filter by symbol kind (function, class, etc.)\n    limit: Maximum results\n\nReturns:\n    List of matching symbols"
+      }
+    ],
+    "get_symbol_references": [
+      {
+        "name": "get_symbol_references",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 247,
+        "column": 4,
+        "end_line": 250,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_symbol_references(self, symbol_name)",
+        "docstring": "Get all references to a symbol"
+      },
+      {
+        "name": "get_symbol_references",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 247,
+        "column": 4,
+        "end_line": 250,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_symbol_references(self, symbol_name)",
+        "docstring": "Get all references to a symbol"
+      }
+    ],
+    "get_file_symbols": [
+      {
+        "name": "get_file_symbols",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 252,
+        "column": 4,
+        "end_line": 259,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_file_symbols(self, file_path)",
+        "docstring": "Get all symbols defined in a file"
+      },
+      {
+        "name": "get_file_symbols",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 252,
+        "column": 4,
+        "end_line": 259,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_file_symbols(self, file_path)",
+        "docstring": "Get all symbols defined in a file"
+      }
+    ],
+    "_should_ignore": [
+      {
+        "name": "_should_ignore",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 261,
+        "column": 4,
+        "end_line": 267,
+        "scope": null,
+        "language": "python",
+        "signature": "def _should_ignore(self, path)",
+        "docstring": "Check if path should be ignored"
+      },
+      {
+        "name": "_should_ignore",
+        "kind": "function",
+        "file": "modules\\code_parser.py",
+        "line": 138,
+        "column": 0,
+        "end_line": 145,
+        "scope": null,
+        "language": "python",
+        "signature": "def _should_ignore(path)",
+        "docstring": "Check if path should be ignored"
+      },
+      {
+        "name": "_should_ignore",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 261,
+        "column": 4,
+        "end_line": 267,
+        "scope": null,
+        "language": "python",
+        "signature": "def _should_ignore(self, path)",
+        "docstring": "Check if path should be ignored"
+      },
+      {
+        "name": "_should_ignore",
+        "kind": "function",
+        "file": "modules\\code_parser.py",
+        "line": 138,
+        "column": 0,
+        "end_line": 145,
+        "scope": null,
+        "language": "python",
+        "signature": "def _should_ignore(path)",
+        "docstring": "Check if path should be ignored"
+      }
+    ],
+    "_hash_file": [
+      {
+        "name": "_hash_file",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 269,
+        "column": 4,
+        "end_line": 272,
+        "scope": null,
+        "language": "python",
+        "signature": "def _hash_file(self, file_path)",
+        "docstring": "Calculate file hash for change detection"
+      },
+      {
+        "name": "_hash_file",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 269,
+        "column": 4,
+        "end_line": 272,
+        "scope": null,
+        "language": "python",
+        "signature": "def _hash_file(self, file_path)",
+        "docstring": "Calculate file hash for change detection"
+      }
+    ],
+    "_get_name": [
+      {
+        "name": "_get_name",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 274,
+        "column": 4,
+        "end_line": 280,
+        "scope": null,
+        "language": "python",
+        "signature": "def _get_name(self, node)",
+        "docstring": "Extract name from AST node"
+      },
+      {
+        "name": "_get_name",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 274,
+        "column": 4,
+        "end_line": 280,
+        "scope": null,
+        "language": "python",
+        "signature": "def _get_name(self, node)",
+        "docstring": "Extract name from AST node"
+      }
+    ],
+    "_save_index": [
+      {
+        "name": "_save_index",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 282,
+        "column": 4,
+        "end_line": 299,
+        "scope": null,
+        "language": "python",
+        "signature": "def _save_index(self)",
+        "docstring": "Save index to disk"
+      },
+      {
+        "name": "_save_index",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 282,
+        "column": 4,
+        "end_line": 299,
+        "scope": null,
+        "language": "python",
+        "signature": "def _save_index(self)",
+        "docstring": "Save index to disk"
+      }
+    ],
+    "load_index": [
+      {
+        "name": "load_index",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 301,
+        "column": 4,
+        "end_line": 322,
+        "scope": null,
+        "language": "python",
+        "signature": "def load_index(self)",
+        "docstring": "Load index from disk"
+      },
+      {
+        "name": "load_index",
+        "kind": "function",
+        "file": "modules\\code_index.py",
+        "line": 301,
+        "column": 4,
+        "end_line": 322,
+        "scope": null,
+        "language": "python",
+        "signature": "def load_index(self)",
+        "docstring": "Load index from disk"
+      }
+    ],
+    "start_time": [
+      {
+        "name": "start_time",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 67,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "start_time",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 67,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "python_files": [
+      {
+        "name": "python_files",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 77,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "python_files",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 77,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "duration": [
+      {
+        "name": "duration",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 111,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "duration",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 111,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "query_lower": [
+      {
+        "name": "query_lower",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 234,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "query_lower",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 234,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "refs": [
+      {
+        "name": "refs",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 249,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "refs",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 249,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "ignore_patterns": [
+      {
+        "name": "ignore_patterns",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 263,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "ignore_patterns",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 140,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "ignore_patterns",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 263,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "ignore_patterns",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 140,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "_index": [
+      {
+        "name": "_index",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 331,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "_index",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 331,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "tree": [
+      {
+        "name": "tree",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 129,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "tree",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 101,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "tree",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 129,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "tree",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 101,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "rel_path": [
+      {
+        "name": "rel_path",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 130,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "rel_path",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 87,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "rel_path",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 130,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "rel_path",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 87,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "data": [
+      {
+        "name": "data",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 285,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "data",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 308,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "data",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 285,
+        "column": 12,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "data",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 308,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "file_hash": [
+      {
+        "name": "file_hash",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 86,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "file_hash",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 86,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "source": [
+      {
+        "name": "source",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 127,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "source",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 100,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "source",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 127,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "source",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 100,
+        "column": 16,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "args": [
+      {
+        "name": "args",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 138,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "args",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 138,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "signature": [
+      {
+        "name": "signature",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 139,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "signature",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 157,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "signature",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 139,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "signature",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 157,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "docstring": [
+      {
+        "name": "docstring",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 140,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "docstring",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 158,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "docstring",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 140,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "docstring",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 158,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "bases": [
+      {
+        "name": "bases",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 156,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "bases",
+        "kind": "variable",
+        "file": "modules\\code_index.py",
+        "line": 156,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "re": [
+      {
+        "name": "re",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import re",
+        "docstring": null
+      },
+      {
+        "name": "re",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 77,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import re",
+        "docstring": null
+      },
+      {
+        "name": "re",
+        "kind": "import",
+        "file": "modules\\code_parser.py",
+        "line": 3,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import re",
+        "docstring": null
+      },
+      {
+        "name": "re",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 77,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import re",
+        "docstring": null
+      }
+    ],
+    "_find_python_symbols": [
+      {
+        "name": "_find_python_symbols",
+        "kind": "function",
+        "file": "modules\\code_parser.py",
+        "line": 89,
+        "column": 0,
+        "end_line": 136,
+        "scope": null,
+        "language": "python",
+        "signature": "def _find_python_symbols(name)",
+        "docstring": "Find Python symbols using AST"
+      },
+      {
+        "name": "_find_python_symbols",
+        "kind": "function",
+        "file": "modules\\code_parser.py",
+        "line": 89,
+        "column": 0,
+        "end_line": 136,
+        "scope": null,
+        "language": "python",
+        "signature": "def _find_python_symbols(name)",
+        "docstring": "Find Python symbols using AST"
+      }
+    ],
+    "_get_context": [
+      {
+        "name": "_get_context",
+        "kind": "function",
+        "file": "modules\\code_parser.py",
+        "line": 147,
+        "column": 0,
+        "end_line": 151,
+        "scope": null,
+        "language": "python",
+        "signature": "def _get_context(lines, line_num, context_size)",
+        "docstring": "Get surrounding lines for context"
+      },
+      {
+        "name": "_get_context",
+        "kind": "function",
+        "file": "modules\\code_parser.py",
+        "line": 147,
+        "column": 0,
+        "end_line": 151,
+        "scope": null,
+        "language": "python",
+        "signature": "def _get_context(lines, line_num, context_size)",
+        "docstring": "Get surrounding lines for context"
+      }
+    ],
+    "workspace": [
+      {
+        "name": "workspace",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 22,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "workspace",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 92,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "workspace",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 22,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "workspace",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 92,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "patterns": [
+      {
+        "name": "patterns",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 25,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "patterns",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 25,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "pattern": [
+      {
+        "name": "pattern",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 32,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "pattern",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 32,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "start": [
+      {
+        "name": "start",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 149,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "start",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 149,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "end": [
+      {
+        "name": "end",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 150,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "end",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 150,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "lines": [
+      {
+        "name": "lines",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 41,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "lines",
+        "kind": "variable",
+        "file": "modules\\code_parser.py",
+        "line": 41,
+        "column": 20,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "subprocess": [
+      {
+        "name": "subprocess",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import subprocess",
+        "docstring": null
+      },
+      {
+        "name": "subprocess",
+        "kind": "import",
+        "file": "modules\\debugger_interface.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import subprocess",
+        "docstring": null
+      }
+    ],
+    "_parse_stack_trace": [
+      {
+        "name": "_parse_stack_trace",
+        "kind": "function",
+        "file": "modules\\debugger_interface.py",
+        "line": 75,
+        "column": 0,
+        "end_line": 104,
+        "scope": null,
+        "language": "python",
+        "signature": "def _parse_stack_trace(trace)",
+        "docstring": "Extract file and line numbers from stack trace"
+      },
+      {
+        "name": "_parse_stack_trace",
+        "kind": "function",
+        "file": "modules\\debugger_interface.py",
+        "line": 75,
+        "column": 0,
+        "end_line": 104,
+        "scope": null,
+        "language": "python",
+        "signature": "def _parse_stack_trace(trace)",
+        "docstring": "Extract file and line numbers from stack trace"
+      }
+    ],
+    "run_python_debugger": [
+      {
+        "name": "run_python_debugger",
+        "kind": "function",
+        "file": "modules\\debugger_interface.py",
+        "line": 106,
+        "column": 0,
+        "end_line": 121,
+        "scope": null,
+        "language": "python",
+        "signature": "def run_python_debugger(script_path, breakpoints)",
+        "docstring": "Run Python script with pdb debugger.\n\nArgs:\n    script_path: Path to Python script\n    breakpoints: Optional line numbers for breakpoints\n\nReturns:\n    Debugger session info"
+      },
+      {
+        "name": "run_python_debugger",
+        "kind": "function",
+        "file": "modules\\debugger_interface.py",
+        "line": 106,
+        "column": 0,
+        "end_line": 121,
+        "scope": null,
+        "language": "python",
+        "signature": "def run_python_debugger(script_path, breakpoints)",
+        "docstring": "Run Python script with pdb debugger.\n\nArgs:\n    script_path: Path to Python script\n    breakpoints: Optional line numbers for breakpoints\n\nReturns:\n    Debugger session info"
+      }
+    ],
+    "suspects": [
+      {
+        "name": "suspects",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 66,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "suspects",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 79,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "suspects",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 66,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "suspects",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 79,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "python_pattern": [
+      {
+        "name": "python_pattern",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 82,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "python_pattern",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 82,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "matches": [
+      {
+        "name": "matches",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 83,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "matches",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 83,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "js_pattern": [
+      {
+        "name": "js_pattern",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 93,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "js_pattern",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 93,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "js_matches": [
+      {
+        "name": "js_matches",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 94,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "js_matches",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 94,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "exec_env": [
+      {
+        "name": "exec_env",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 19,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "exec_env",
+        "kind": "variable",
+        "file": "modules\\debugger_interface.py",
+        "line": 19,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "Callable": [
+      {
+        "name": "Callable",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Callable",
+        "docstring": null
+      },
+      {
+        "name": "Callable",
+        "kind": "import",
+        "file": "modules\\intent_router.py",
+        "line": 6,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from typing import Callable",
+        "docstring": null
+      }
+    ],
+    "IntentRouter": [
+      {
+        "name": "IntentRouter",
+        "kind": "class",
+        "file": "modules\\intent_router.py",
+        "line": 12,
+        "column": 0,
+        "end_line": 80,
+        "scope": null,
+        "language": "python",
+        "signature": "class IntentRouter",
+        "docstring": "Routes intents to appropriate handlers with safety checks"
+      },
+      {
+        "name": "IntentRouter",
+        "kind": "class",
+        "file": "modules\\intent_router.py",
+        "line": 12,
+        "column": 0,
+        "end_line": 80,
+        "scope": null,
+        "language": "python",
+        "signature": "class IntentRouter",
+        "docstring": "Routes intents to appropriate handlers with safety checks"
+      }
+    ],
+    "_router": [
+      {
+        "name": "_router",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 83,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "_router",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 83,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "_find_errors_handler": [
+      {
+        "name": "_find_errors_handler",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 119,
+        "column": 0,
+        "end_line": 130,
+        "scope": null,
+        "language": "python",
+        "signature": "def _find_errors_handler(entities)",
+        "docstring": "Handler for finding errors"
+      },
+      {
+        "name": "_find_errors_handler",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 119,
+        "column": 0,
+        "end_line": 130,
+        "scope": null,
+        "language": "python",
+        "signature": "def _find_errors_handler(entities)",
+        "docstring": "Handler for finding errors"
+      }
+    ],
+    "_explain_code_handler": [
+      {
+        "name": "_explain_code_handler",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 132,
+        "column": 0,
+        "end_line": 138,
+        "scope": null,
+        "language": "python",
+        "signature": "def _explain_code_handler(entities)",
+        "docstring": "Handler for explaining code"
+      },
+      {
+        "name": "_explain_code_handler",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 132,
+        "column": 0,
+        "end_line": 138,
+        "scope": null,
+        "language": "python",
+        "signature": "def _explain_code_handler(entities)",
+        "docstring": "Handler for explaining code"
+      }
+    ],
+    "_run_tests_handler": [
+      {
+        "name": "_run_tests_handler",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 140,
+        "column": 0,
+        "end_line": 153,
+        "scope": null,
+        "language": "python",
+        "signature": "def _run_tests_handler(entities)",
+        "docstring": "Handler for running tests"
+      },
+      {
+        "name": "_run_tests_handler",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 140,
+        "column": 0,
+        "end_line": 153,
+        "scope": null,
+        "language": "python",
+        "signature": "def _run_tests_handler(entities)",
+        "docstring": "Handler for running tests"
+      }
+    ],
+    "register_handler": [
+      {
+        "name": "register_handler",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 23,
+        "column": 4,
+        "end_line": 26,
+        "scope": null,
+        "language": "python",
+        "signature": "def register_handler(self, intent_type, handler)",
+        "docstring": "Register a handler function for an intent"
+      },
+      {
+        "name": "register_handler",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 23,
+        "column": 4,
+        "end_line": 26,
+        "scope": null,
+        "language": "python",
+        "signature": "def register_handler(self, intent_type, handler)",
+        "docstring": "Register a handler function for an intent"
+      }
+    ],
+    "route": [
+      {
+        "name": "route",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 28,
+        "column": 4,
+        "end_line": 72,
+        "scope": null,
+        "language": "python",
+        "signature": "def route(self, intent, require_confirmation)",
+        "docstring": "Route intent to appropriate handler\n\nArgs:\n    intent: Parsed intent object\n    require_confirmation: Whether to require confirmation for destructive ops\n\nReturns:\n    Handler result or confirmation request"
+      },
+      {
+        "name": "route",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 28,
+        "column": 4,
+        "end_line": 72,
+        "scope": null,
+        "language": "python",
+        "signature": "def route(self, intent, require_confirmation)",
+        "docstring": "Route intent to appropriate handler\n\nArgs:\n    intent: Parsed intent object\n    require_confirmation: Whether to require confirmation for destructive ops\n\nReturns:\n    Handler result or confirmation request"
+      }
+    ],
+    "_is_destructive": [
+      {
+        "name": "_is_destructive",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 74,
+        "column": 4,
+        "end_line": 76,
+        "scope": null,
+        "language": "python",
+        "signature": "def _is_destructive(self, intent)",
+        "docstring": "Check if intent is destructive (modifies code)"
+      },
+      {
+        "name": "_is_destructive",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 74,
+        "column": 4,
+        "end_line": 76,
+        "scope": null,
+        "language": "python",
+        "signature": "def _is_destructive(self, intent)",
+        "docstring": "Check if intent is destructive (modifies code)"
+      }
+    ],
+    "get_registered_intents": [
+      {
+        "name": "get_registered_intents",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 78,
+        "column": 4,
+        "end_line": 80,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_registered_intents(self)",
+        "docstring": "Get list of registered intent types"
+      },
+      {
+        "name": "get_registered_intents",
+        "kind": "function",
+        "file": "modules\\intent_router.py",
+        "line": 78,
+        "column": 4,
+        "end_line": 80,
+        "scope": null,
+        "language": "python",
+        "signature": "def get_registered_intents(self)",
+        "docstring": "Get list of registered intent types"
+      }
+    ],
+    "handler": [
+      {
+        "name": "handler",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 49,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "handler",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 49,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "cmd": [
+      {
+        "name": "cmd",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 146,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "cmd",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 148,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "cmd",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 146,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "cmd",
+        "kind": "variable",
+        "file": "modules\\intent_router.py",
+        "line": 148,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "Field": [
+      {
+        "name": "Field",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pydantic import Field",
+        "docstring": null
+      },
+      {
+        "name": "Field",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pydantic import Field",
+        "docstring": null
+      }
+    ],
+    "validator": [
+      {
+        "name": "validator",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pydantic import validator",
+        "docstring": null
+      },
+      {
+        "name": "validator",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 7,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from pydantic import validator",
+        "docstring": null
+      }
+    ],
+    "Enum": [
+      {
+        "name": "Enum",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 8,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from enum import Enum",
+        "docstring": null
+      },
+      {
+        "name": "Enum",
+        "kind": "import",
+        "file": "modules\\intent_schema.py",
+        "line": 8,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "from enum import Enum",
+        "docstring": null
+      }
+    ],
+    "SymbolScope": [
+      {
+        "name": "SymbolScope",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 23,
+        "column": 0,
+        "end_line": 28,
+        "scope": null,
+        "language": "python",
+        "signature": "class SymbolScope(str, Enum)",
+        "docstring": "Scope for symbol searches"
+      },
+      {
+        "name": "SymbolScope",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 23,
+        "column": 0,
+        "end_line": 28,
+        "scope": null,
+        "language": "python",
+        "signature": "class SymbolScope(str, Enum)",
+        "docstring": "Scope for symbol searches"
+      }
+    ],
+    "Language": [
+      {
+        "name": "Language",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 30,
+        "column": 0,
+        "end_line": 36,
+        "scope": null,
+        "language": "python",
+        "signature": "class Language(str, Enum)",
+        "docstring": "Supported programming languages"
+      },
+      {
+        "name": "Language",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 30,
+        "column": 0,
+        "end_line": 36,
+        "scope": null,
+        "language": "python",
+        "signature": "class Language(str, Enum)",
+        "docstring": "Supported programming languages"
+      }
+    ],
+    "IntentEntities": [
+      {
+        "name": "IntentEntities",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 38,
+        "column": 0,
+        "end_line": 49,
+        "scope": null,
+        "language": "python",
+        "signature": "class IntentEntities(BaseModel)",
+        "docstring": "Entities extracted from user command"
+      },
+      {
+        "name": "IntentEntities",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 38,
+        "column": 0,
+        "end_line": 49,
+        "scope": null,
+        "language": "python",
+        "signature": "class IntentEntities(BaseModel)",
+        "docstring": "Entities extracted from user command"
+      }
+    ],
+    "INTENT_DESCRIPTIONS": [
+      {
+        "name": "INTENT_DESCRIPTIONS",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 69,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "INTENT_DESCRIPTIONS",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 69,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "INTENT_EXAMPLES": [
+      {
+        "name": "INTENT_EXAMPLES",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 83,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "INTENT_EXAMPLES",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 83,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "FIND_ERRORS": [
+      {
+        "name": "FIND_ERRORS",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 12,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "FIND_ERRORS",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 12,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "EXPLAIN_CODE": [
+      {
+        "name": "EXPLAIN_CODE",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 13,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "EXPLAIN_CODE",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 13,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "FIND_SYMBOL": [
+      {
+        "name": "FIND_SYMBOL",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 14,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "FIND_SYMBOL",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 14,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "NAVIGATE_TO": [
+      {
+        "name": "NAVIGATE_TO",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 15,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "NAVIGATE_TO",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 15,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "RUN_TESTS": [
+      {
+        "name": "RUN_TESTS",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 16,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "RUN_TESTS",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 16,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "EXPLAIN_TRACE": [
+      {
+        "name": "EXPLAIN_TRACE",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 17,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "EXPLAIN_TRACE",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 17,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "PROPOSE_FIX": [
+      {
+        "name": "PROPOSE_FIX",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 18,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "PROPOSE_FIX",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 18,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "APPLY_FIX": [
+      {
+        "name": "APPLY_FIX",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 19,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "APPLY_FIX",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 19,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "FORMAT_FILE": [
+      {
+        "name": "FORMAT_FILE",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 20,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "FORMAT_FILE",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 20,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "RENAME_SYMBOL": [
+      {
+        "name": "RENAME_SYMBOL",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 21,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "RENAME_SYMBOL",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 21,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "ALL": [
+      {
+        "name": "ALL",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 25,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "ALL",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 25,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "READS": [
+      {
+        "name": "READS",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 26,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "READS",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 26,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "WRITES": [
+      {
+        "name": "WRITES",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 27,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "WRITES",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 27,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "DECLARATIONS": [
+      {
+        "name": "DECLARATIONS",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 28,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "DECLARATIONS",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 28,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "PYTHON": [
+      {
+        "name": "PYTHON",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 32,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "PYTHON",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 32,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "JAVASCRIPT": [
+      {
+        "name": "JAVASCRIPT",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 33,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "JAVASCRIPT",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 33,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "TYPESCRIPT": [
+      {
+        "name": "TYPESCRIPT",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 34,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "TYPESCRIPT",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 34,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "JAVA": [
+      {
+        "name": "JAVA",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 35,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "JAVA",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 35,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "UNKNOWN": [
+      {
+        "name": "UNKNOWN",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 36,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "UNKNOWN",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 36,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "Config": [
+      {
+        "name": "Config",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 48,
+        "column": 4,
+        "end_line": 49,
+        "scope": null,
+        "language": "python",
+        "signature": "class Config",
+        "docstring": null
+      },
+      {
+        "name": "Config",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 59,
+        "column": 4,
+        "end_line": 60,
+        "scope": null,
+        "language": "python",
+        "signature": "class Config",
+        "docstring": null
+      },
+      {
+        "name": "Config",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 48,
+        "column": 4,
+        "end_line": 49,
+        "scope": null,
+        "language": "python",
+        "signature": "class Config",
+        "docstring": null
+      },
+      {
+        "name": "Config",
+        "kind": "class",
+        "file": "modules\\intent_schema.py",
+        "line": 59,
+        "column": 4,
+        "end_line": 60,
+        "scope": null,
+        "language": "python",
+        "signature": "class Config",
+        "docstring": null
+      }
+    ],
+    "validate_confidence": [
+      {
+        "name": "validate_confidence",
+        "kind": "function",
+        "file": "modules\\intent_schema.py",
+        "line": 63,
+        "column": 4,
+        "end_line": 66,
+        "scope": null,
+        "language": "python",
+        "signature": "def validate_confidence(cls, v)",
+        "docstring": null
+      },
+      {
+        "name": "validate_confidence",
+        "kind": "function",
+        "file": "modules\\intent_schema.py",
+        "line": 63,
+        "column": 4,
+        "end_line": 66,
+        "scope": null,
+        "language": "python",
+        "signature": "def validate_confidence(cls, v)",
+        "docstring": null
+      }
+    ],
+    "intents_list": [
+      {
+        "name": "intents_list",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 124,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "intents_list",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 124,
+        "column": 4,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "use_enum_values": [
+      {
+        "name": "use_enum_values",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 49,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "use_enum_values",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 60,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "use_enum_values",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 49,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "use_enum_values",
+        "kind": "variable",
+        "file": "modules\\intent_schema.py",
+        "line": 60,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "base64": [
+      {
+        "name": "base64",
+        "kind": "import",
+        "file": "modules\\speech_to_text.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import base64",
+        "docstring": null
+      },
+      {
+        "name": "base64",
+        "kind": "import",
+        "file": "modules\\speech_to_text.py",
+        "line": 1,
+        "column": 0,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": "import base64",
+        "docstring": null
+      }
+    ],
+    "transcribe_audio_file": [
+      {
+        "name": "transcribe_audio_file",
+        "kind": "function",
+        "file": "modules\\speech_to_text.py",
+        "line": 33,
+        "column": 0,
+        "end_line": 46,
+        "scope": null,
+        "language": "python",
+        "signature": "def transcribe_audio_file(file_path)",
+        "docstring": "Transcribe audio from file path.\n\nArgs:\n    file_path: Path to audio file\n\nReturns:\n    Transcribed text"
+      },
+      {
+        "name": "transcribe_audio_file",
+        "kind": "function",
+        "file": "modules\\speech_to_text.py",
+        "line": 33,
+        "column": 0,
+        "end_line": 46,
+        "scope": null,
+        "language": "python",
+        "signature": "def transcribe_audio_file(file_path)",
+        "docstring": "Transcribe audio from file path.\n\nArgs:\n    file_path: Path to audio file\n\nReturns:\n    Transcribed text"
+      }
+    ],
+    "audio_bytes": [
+      {
+        "name": "audio_bytes",
+        "kind": "variable",
+        "file": "modules\\speech_to_text.py",
+        "line": 24,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "audio_bytes",
+        "kind": "variable",
+        "file": "modules\\speech_to_text.py",
+        "line": 24,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ],
+    "audio_data": [
+      {
+        "name": "audio_data",
+        "kind": "variable",
+        "file": "modules\\speech_to_text.py",
+        "line": 44,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      },
+      {
+        "name": "audio_data",
+        "kind": "variable",
+        "file": "modules\\speech_to_text.py",
+        "line": 44,
+        "column": 8,
+        "end_line": null,
+        "scope": null,
+        "language": "python",
+        "signature": null,
+        "docstring": null
+      }
+    ]
+  }
+}
